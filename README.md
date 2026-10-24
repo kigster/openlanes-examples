@@ -2,6 +2,18 @@
 
 Starting points for [OpenLanes](https://github.com/kigster/openlanes): small app skeletons with a goals document and a few seed plans, ready for the factory to build.
 
+## Aspirations
+
+This repository wants to answer one question for any stack: *what does it look like when a software factory builds my kind of app?*
+
+- **Every common stack, a starting point.** Native desktop, CLI, server-rendered web, front end only, and whatever people bring next: Go services, Django, Phoenix, mobile, embedded. If you can build it from a terminal, it belongs here.
+- **Intent before code.** Each template is mostly a goals document. A short skeleton and a sharp list of non-goals teach the factory more than a large codebase does, and they show newcomers how to brief agents well.
+- **From clone to a running app, unattended.** `ol new`, `ol start`, and the seed plans become a working app with tests and pull requests, with a human answering questions rather than writing code.
+- **A living benchmark.** Every template doubles as an end-to-end test of OpenLanes: it starts clean on every try, so a change to the factory can be measured against real apps in several languages.
+- **Built by the people who use it.** The best template for a stack comes from someone who ships in it. Contributions are the point, not an afterthought.
+
+## Quick start
+
 Copy one out, `cd` into it, and start the factory:
 
 ```bash
